@@ -225,6 +225,8 @@
       if (pageData.data) {
         saveData();
       }
+
+      calculatePayoutsIfShouldBeDone();
     }
   });
 </script>
