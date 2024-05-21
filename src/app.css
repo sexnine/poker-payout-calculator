@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-balance {
+  text-wrap: balance;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.no-spin::-webkit-outer-spin-button,
+.no-spin::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.no-spin {
+  -moz-appearance: textfield;
+}
+
+.frosty {
+  background-image: url("$lib/assets/frosty.svg");
+  background-repeat: repeat;
+}
